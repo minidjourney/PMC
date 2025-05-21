@@ -10,7 +10,12 @@ const CONFIG = {
     github: "",
     instagram: "",
   },
-  projects: [],
+  projects: [projects: [
+  {
+    name: '',  // 빈 이름
+    href: '#', // 유효한 기본 URL
+  },
+],
   // blog setting (required)
   blog: {
     title: "PM_Commerce",
